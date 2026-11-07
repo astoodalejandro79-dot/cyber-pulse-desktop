@@ -1,0 +1,13 @@
+[package]
+name = "cyber-pulse"
+version = "0.1.0"
+edition = "2021"
+description = "Visualizador de audio translúcido estilo cyberpunk"
+
+[dependencies]
+eframe = "0.29"
+cpal = "0.15"
+
+[profile.release]
+opt-level = 3
+lto = false
