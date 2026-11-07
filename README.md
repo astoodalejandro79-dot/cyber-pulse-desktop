@@ -72,3 +72,18 @@ En `src/main.rs`, arriba del todo:
 - `PUNCH`: fuerza del rebote (más alto = más rebote)
 - `BASS_HZ`: frecuencia de corte de los graves
 - `MAX_EXPANSION`: cuánto crece el orbe
+
+## Acceso directo (menú de aplicaciones)
+
+    ./install.sh
+
+Compila, instala el programa en `~/.local/bin` y crea la entrada **Cyber Pulse**
+con su icono en el menú de aplicaciones (Plasma, GNOME, XFCE, etc.).
+
+Opciones:
+
+    ./install.sh --desktop      # además, icono en el escritorio
+    ./install.sh --autostart    # abrir el orbe al iniciar sesión
+    ./install.sh --desktop --autostart
+
+Para quitarlo: `./uninstall.sh`
